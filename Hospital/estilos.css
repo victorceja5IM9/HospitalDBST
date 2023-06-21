@@ -1,0 +1,186 @@
+header {
+    background-color: #d1e1ed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 10%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+/* Estilos para la sección Hero */
+.hero {
+    background-image: url(Imagenes/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000006;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Estilos para la llamada a la acción */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    padding: 25px;
+
+}
+
+
+.column:first-child {
+    background-color: #d1e1ed;
+}
+.column:first-child img {
+    max-width: 104.5%;
+    max-height: 00%;
+}
+.container {
+    text-align: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column:last-child {
+    background-color: #fff;
+}
+
+.column:last-child h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column:last-child p{
+    text-align: justify;
+
+}
+
+.column:last-child p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 48%;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #d1e1ed;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.column {
+    text-align: left;
+}
+
+.columnas img {
+    max-width: 40%;
+    height: auto;
+}
+
+.column h4 {
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.social-buttons  img {
+    max-width: 20%;
+}

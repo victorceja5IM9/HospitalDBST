@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ACBCFF;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #42b983;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de la opción 1 */
+.opcion1-btn {
+    background-color: #84a3c3;
+    color: #fff;
+}
+
+/* Estilo para el botón de la opción 2 */
+.opcion2-btn {
+    background-color: #f2c36e;
+    color: #fff;
+}
+
+/* Estilo para el botón de la opción 3 */
+.opcion3-btn {
+    background-color: #f38989;
+    color: #fff;
+}
+
+button {
+    margin-right: 10px;
+}
+
+/* Estilo para el botón de la opción 2 */
+#opcion2-btn {
+    background-color: #ffc107;
+}
+
+/* Estilo para el botón de la opción 3 */
+#opcion3-btn {
+    background-color: #dc3545;
+}
+
+button {
+    margin-right: 10px;
+}

@@ -1,0 +1,50 @@
+/* Estilos de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilos para cada consultorio */
+  table.consultorio1 {
+    margin-top: 40px;
+    border: 2px solid #FF8C00;
+  }
+  
+  table.consultorio2 {
+    margin-top: 40px;
+    border: 2px solid #008000;
+  }
+  
+  table.consultorio3 {
+    margin-top: 40px;
+    border: 2px solid #0000FF;
+  }
+  
+  /* Estilos para los encabezados de cada consultorio */
+  table.consultorio1 th,
+  table.consultorio2 th,
+  table.consultorio3 th {
+    background-color: #FF8C00;
+    color: white;
+  }
+  
+  /* Estilos para las filas de cada consultorio */
+  table.consultorio1 tr:nth-child(even),
+  table.consultorio2 tr:nth-child(even),
+  table.consultorio3 tr:nth-child(even) {
+    background-color: #FFEBCD;
+  }
+  
+  table.consultorio1 tr:nth-child(odd),
+  table.consultorio2 tr:nth-child(odd),
+  table.consultorio3 tr:nth-child(odd) {
+    background-color: #FFF8DC;
+  }
+  
